@@ -1,3 +1,5 @@
+import Artigo from "../Artigo";
+
 const Conteudo = () => {
   return (
     <main>
@@ -10,32 +12,9 @@ const Conteudo = () => {
           commodi voluptate fugit.
         </p>
 
-        <article>
-          <h3>Título....</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
-            assumenda. Quis molestias facilis perspiciatis nulla eius accusamus
-            corrupti consectetur iste.
-          </p>
-        </article>
-
-        <article>
-          <h3>Título....</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
-            assumenda. Quis molestias facilis perspiciatis nulla eius accusamus
-            corrupti consectetur iste.
-          </p>
-        </article>
-
-        <article>
-          <h3>Título....</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
-            assumenda. Quis molestias facilis perspiciatis nulla eius accusamus
-            corrupti consectetur iste.
-          </p>
-        </article>
+        <Artigo />
+        <Artigo />
+        <Artigo />
       </section>
     </main>
   );
