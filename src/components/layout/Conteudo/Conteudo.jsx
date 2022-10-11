@@ -1,13 +1,16 @@
-import Artigo from "../Artigo";
-import "./Conteudo.css";
+import Artigo from "../../Artigo";
+import estilos from "./Conteudo.module.css";
 
 const Conteudo = () => {
   return (
     <main>
-      <section>
-        <h2 className="subtitulo">Conteúdo do site....</h2>
+      <section id={estilos.secoes}>
+        <h2 className={estilos.subtitulo}>Conteúdo do site....</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam ab
+          <span className={`${estilos.destaque} ${estilos["sombra-texto"]}`}>
+            Lorem
+          </span>
+          ipsum dolor sit amet consectetur, adipisicing elit. Ullam ab
           inventore, sapiente impedit numquam maxime quia voluptates, et at modi
           harum recusandae? Inventore illo consectetur, quisquam distinctio
           commodi voluptate fugit.
