@@ -6,4 +6,6 @@ main {
 
 .subtitulo {
   text-align: center;
+  color: red;
+  text-transform: uppercase;
 }
