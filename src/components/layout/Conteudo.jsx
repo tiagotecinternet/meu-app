@@ -1,12 +1,9 @@
 import Artigo from "../Artigo";
 
 const Conteudo = () => {
-  // Comentário JS ctrl ;
-  /* Comentário JS shift alt a */
   return (
     <main>
       <section>
-        {/* AQUI É COMENTÁRIO DENTRO DO JSX  */}
         <h2>Conteúdo do site....</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam ab
@@ -15,9 +12,9 @@ const Conteudo = () => {
           commodi voluptate fugit.
         </p>
 
-        <Artigo />
-        <Artigo />
-        <Artigo />
+        <Artigo>Este é o texto do primeiro artigo....</Artigo>
+        <Artigo>Este é o texto do segundo artigo....</Artigo>
+        <Artigo>Este é o texto do terceiro artigo....</Artigo>
       </section>
     </main>
   );
